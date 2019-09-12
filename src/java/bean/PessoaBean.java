@@ -19,7 +19,7 @@ import javax.faces.context.FacesContext;
 @Named(value = "pessoaBean")
 @RequestScoped
 public class PessoaBean {
-String joje = "";
+
     /**
      * Creates a new instance of PessoaBean
      */
@@ -43,5 +43,10 @@ String joje = "";
         
         rb.setResultado(this.nome);
     
+    }
+    
+    public void recado(){
+    
+    String joje = "";
     }
 }
