@@ -19,7 +19,7 @@ import javax.faces.context.FacesContext;
 @Named(value = "pessoaBean")
 @RequestScoped
 public class PessoaBean {
-
+String oi = "";
     /**
      * Creates a new instance of PessoaBean
      */
