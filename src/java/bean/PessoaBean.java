@@ -10,6 +10,8 @@ import javax.inject.Named;
 import javax.enterprise.context.RequestScoped;
 import javax.faces.context.FacesContext;
 
+
+
 /**
  *
  * @author EMPRESA
@@ -17,7 +19,7 @@ import javax.faces.context.FacesContext;
 @Named(value = "pessoaBean")
 @RequestScoped
 public class PessoaBean {
-
+String joje = "";
     /**
      * Creates a new instance of PessoaBean
      */
