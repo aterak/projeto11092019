@@ -41,8 +41,16 @@ String oi = "";
         FacesContext context = FacesContext.getCurrentInstance();
         ResultadoBean rb = context.getApplication().evaluateExpressionGet(context,"#{resultadoBean}" , ResultadoBean.class);
         
+        
+           String teste ="e";
+        
+        
         rb.setResultado(this.nome);
-    
+   
+        
+        
+     
+        
     }
     
    
